@@ -6,6 +6,6 @@ DROP TABLE IF EXISTS burgers;
 CREATE TABLE burgers (
 id int NOT NULL AUTO_INCREMENT,
 burger_name varchar(200) NOT NULL,
-devoured BOOL DEFAULT false,
+devoured boolean DEFAULT false,
 PRIMARY KEY (id)
 );
